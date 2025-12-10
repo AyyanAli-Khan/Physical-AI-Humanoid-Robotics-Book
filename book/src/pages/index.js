@@ -26,8 +26,8 @@ const modules = [
     title: 'Module 3: Embodied Intelligence',
     description:
       'Integrate planning, control, and learning systems that connect perception to purposeful motion.',
-    to: '/docs/physical-ai/module-3/weeks-11-12/whole-body-control',
-    badge: 'Weeks 11-12',
+    to: '/docs/physical-ai/module-3/weeks-8-10/nvidia-isaac-platform',
+    badge: 'Weeks 8-10',
   },
 ];
 
@@ -41,7 +41,7 @@ function ModuleCard({title, description, to, badge}) {
         </Heading>
       </div>
       <p className={styles.moduleDescription}>{description}</p>
-      <span className={styles.moduleCta}>Start learning -></span>
+      <span className={styles.moduleCta}>Start learning &rarr;</span>
     </Link>
   );
 }
