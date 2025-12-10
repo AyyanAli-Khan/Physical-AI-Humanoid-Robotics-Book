@@ -15,7 +15,7 @@ const config = {
   favicon: '/img/favicon.ico',
 
   url: 'https://physical-ai-lab.org',
-  baseUrl: '/book/',
+  baseUrl: '/',
   organizationName: 'physical-ai-lab',
   projectName: 'physical-ai-humanoid-robotics-book',
 
@@ -36,7 +36,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/physical-ai-lab/physical-ai-humanoid-robotics-book/edit/main/',
+          editUrl: 'https://github.com/AyyanAli-Khan/Physical-AI-Humanoid-Robotics-Book',
         },
         blog: false,
         theme: {
@@ -63,7 +63,7 @@ const config = {
             label: 'Book',
           },
           {
-            href: 'https://github.com/physical-ai-lab/physical-ai-humanoid-robotics-book',
+            href: 'https://github.com/AyyanAli-Khan/Physical-AI-Humanoid-Robotics-Book/tree/main/book',
             label: 'GitHub',
             position: 'right',
           },
@@ -90,7 +90,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/physical-ai-lab/physical-ai-humanoid-robotics-book',
+                href: 'https://github.com/AyyanAli-Khan/Physical-AI-Humanoid-Robotics-Book/tree/main/book',
               },
             ],
           },
