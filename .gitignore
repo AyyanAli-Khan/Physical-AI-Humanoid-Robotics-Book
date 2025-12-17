@@ -10,6 +10,9 @@ dist/
 .env*
 !.env.example
 
+.venv
+__pycache__
+
 # Logs
 *.log
 npm-debug.log*
